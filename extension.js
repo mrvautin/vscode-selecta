@@ -85,7 +85,7 @@ function activate(context) {
 	});
 
 	let contains = vscode.commands.registerCommand('selecta.contains', async function () {
-		const input = await vscode.window.showInputBox({ placeHolder: 'Enter the value the line ends with' });
+		const input = await vscode.window.showInputBox({ placeHolder: 'Enter the value the line contains' });
 
 		// Get the active text editor
 		const editor = vscode.window.activeTextEditor;
