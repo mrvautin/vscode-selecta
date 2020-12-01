@@ -1,0 +1,65 @@
+{
+	"name": "selecta",
+	"displayName": "selecta",
+	"description": "Used for selecting lines with regex. Line starts with, ends with or contains.",
+	"version": "0.0.1",
+	"author": "Mark Moffat",
+	"publisher": "mrvautin",
+    "license": "MIT",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onCommand:selecta.startsWith",
+		"onCommand:selecta.endsWith",
+		"onCommand:selecta.contains"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "selecta.startsWith",
+				"title": "Selecta starts with"
+			},
+			{
+				"command": "selecta.endsWith",
+				"title": "Selecta ends with"
+			},
+			{
+				"command": "selecta.contains",
+				"title": "Selecta contains"
+			}
+		]
+	},
+	"galleryBanner": {
+        "color": "#5a9c54",
+        "theme": "dark"
+    },
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/mrvautin/vscode-selecta"
+	},
+	"bugs": {
+		"url": "https://github.com/mrvautin/vscode-selecta/issues"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	}
+}
