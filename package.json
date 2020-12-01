@@ -9,6 +9,17 @@
 	"engines": {
 		"vscode": "^1.46.0"
 	},
+	"keywords": [
+		"line",
+		"wildcard",
+		"text",
+		"selector",
+		"starts with",
+		"ends with",
+		"contains",
+		"regex",
+		"match"
+	],
 	"categories": [
 		"Other",
 		"Programming Languages"
@@ -41,8 +52,7 @@
     },
 	"scripts": {
 		"lint": "eslint .",
-		"pretest": "npm run lint",
-		"test": "node ./test/runTest.js"
+		"pretest": "npm run lint"
 	},
 	"repository": {
         "type": "git",
@@ -51,7 +61,7 @@
 	"bugs": {
 		"url": "https://github.com/mrvautin/vscode-selecta/issues"
 	},
-	"icon": "icon.png",
+	"icon": "images/logo.png",
 	"devDependencies": {
 		"@types/vscode": "^1.46.0",
 		"@types/glob": "^7.1.3",
