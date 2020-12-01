@@ -61,7 +61,7 @@
 	"bugs": {
 		"url": "https://github.com/mrvautin/vscode-selecta/issues"
 	},
-	"icon": "images/logo.png",
+	"icon": "media/logo.png",
 	"devDependencies": {
 		"@types/vscode": "^1.46.0",
 		"@types/glob": "^7.1.3",

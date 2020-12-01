@@ -1,10 +1,12 @@
 # selecta
 
-![selecta logo](https://github.com/mrvautin/vscode-selecta/raw/main/images/logo-small.png "Selecta logo")
+![selecta logo](https://github.com/mrvautin/vscode-selecta/raw/main/media/logo-small.png "Selecta logo")
 
 Allows you to select just the lines which start with, end with or contain a word/character/string.
 
 You can then simply edit, delete etc.
+
+![selecta demo](https://github.com/mrvautin/vscode-selecta/raw/main/media/demo.gif)
 
 ## Features
 
